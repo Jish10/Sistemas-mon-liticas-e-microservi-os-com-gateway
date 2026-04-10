@@ -133,9 +133,9 @@ npm start
 
 ### Rotas:
 
-* http://localhost:3000/usuarios
-* http://localhost:3000/produtos
-* http://localhost:3000/pedidos
+* http://localhost:3001/usuarios
+* http://localhost:3002/produtos
+* http://localhost:3003/pedidos
 * http://localhost:3000/pedidos-detalhados
 
 ---
