@@ -124,7 +124,7 @@ npm install
 
 ---
 
-## ▶️ Executar MONÓLITO
+##  Executar MONÓLITO
 
 ```bash
 cd monolito
@@ -140,7 +140,7 @@ npm start
 
 ---
 
-## ▶Executar MICROSSERVIÇOS
+## Executar MICROSSERVIÇOS
 
 Abrir 4 terminais:
 
@@ -176,7 +176,7 @@ npm start
 
 ##  Testar API Gateway
 
-👉 http://localhost:3000/api/pedidos-detalhados
+Clica em: http://localhost:3000/api/pedidos-detalhados
 
 ---
 
