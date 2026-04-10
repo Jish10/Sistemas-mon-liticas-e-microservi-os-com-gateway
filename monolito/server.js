@@ -5,8 +5,8 @@ app.use(express.json());
 
 // Dados simples
 const usuarios = [
-  { id: 1, nome: "Ana" },
-  { id: 2, nome: "Carlos" }
+  { id: 1, nome: "Amanda" },
+  { id: 2, nome: "Ze pelit" }
 ];
 
 const produtos = [
@@ -19,7 +19,7 @@ const pedidos = [
   { id: 2, usuarioId: 2, produtoId: 1, quantidade: 1 }
 ];
 
-// Rotas simples
+
 app.get("/usuarios", (req, res) => {
   res.json(usuarios);
 });
@@ -32,7 +32,7 @@ app.get("/pedidos", (req, res) => {
   res.json(pedidos);
 });
 
-// Rota com dados detalhados
+
 app.get("/pedidos-detalhados", (req, res) => {
   const resultado = pedidos.map((pedido) => {
     const usuario = usuarios.find((u) => u.id === pedido.usuarioId);

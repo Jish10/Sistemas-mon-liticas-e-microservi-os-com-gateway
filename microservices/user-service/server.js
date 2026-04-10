@@ -2,8 +2,8 @@ const express = require("express");
 const app = express();
 
 const usuarios = [
-  { id: 1, nome: "Ana" },
-  { id: 2, nome: "Carlos" }
+  { id: 1, nome: "Amanda" },
+  { id: 2, nome: "Ze pelit" }
 ];
 
 app.get("/usuarios", (req, res) => {
